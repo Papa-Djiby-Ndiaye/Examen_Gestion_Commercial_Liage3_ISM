@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="641.0" prefWidth="834.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gestioncommercial.MenuController">
+   <children>
+      <Pane layoutX="11.0" layoutY="14.0" prefHeight="77.0" prefWidth="1138.0" style="-fx-background-color: #2D3447;">
+         <children>
+            <Text fill="#a0a2ab" layoutX="110.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenue,">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#2196f3" layoutX="587.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Profil" />
+         </children>
+      </Pane>
+      <Pane layoutX="11.0" layoutY="91.0" prefHeight="545.0" prefWidth="245.0" style="-fx-background-color: #2D3447;">
+         <children>
+            <Text fill="#a0a2ab" layoutX="89.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Commerciale">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#5c72d0" layoutX="18.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gestion">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#a0a2ab" layoutX="53.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dashbord">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#a0a2ab" layoutX="5.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stock">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="#6677c3" layoutX="92.0" layoutY="248.0" onMouseClicked="#handleLoadViewArticle" strokeType="OUTSIDE" strokeWidth="0.0" text="Article">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#6677c3" layoutX="89.0" layoutY="279.0" onMouseClicked="#handleLoadViewClatégorie" strokeType="OUTSIDE" strokeWidth="0.0" text="Catégorie">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#a0a2ab" layoutX="4.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Commande">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="#6677c3" layoutX="92.0" layoutY="375.0" onMouseClicked="#handleLoadViewCommande" strokeType="OUTSIDE" strokeWidth="0.0" text="Ajouter">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#a0a2ab" layoutX="3.0" layoutY="422.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Profil">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="#6677c3" layoutX="98.0" layoutY="456.0" onMouseClicked="#handleLoadViewUser" strokeType="OUTSIDE" strokeWidth="0.0" text="Utilisateur">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Separator layoutX="14.0" layoutY="483.0" prefWidth="200.0" />
+         </children>
+      </Pane>
+      <AnchorPane fx:id="AnchorContent" layoutX="262.0" layoutY="95.0" prefHeight="538.0" prefWidth="888.0" />
+   </children>
+</AnchorPane>
